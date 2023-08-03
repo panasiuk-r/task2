@@ -1,6 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { Note } from '../types/Note'
-import { NotesAction, TypeAction, IdAction } from './actions'
 
 const notes = [
 	{
